@@ -17,7 +17,7 @@
             switch (name)
             {
                 case "luke":
-                    Console.WriteLine("Howdy Luke, want to go fishing later.");
+                    Console.WriteLine("Howdy Luke, want to go fishing later?");
                     break;
                 case "emily":
                     Console.WriteLine("Hello, Emily!");
