@@ -6,23 +6,36 @@
         {
             // say my name again
 
-            string userInput = "";
-            int result = 0;
-            bool isValid = false;
-            string message = "";
+            // Get the user's name
+            Console.Write("What is your name? ");
+            string name = Console.ReadLine();
 
-            do
+            // this is used to show what text to show in the greeting
+            string displayname = name;
+
+            // Use switch a selecting different greeting for different names
+            switch (name)
             {
-                Console.WriteLine("Please enter your name:");
-                userInput = Console.ReadLine();
-                Console.WriteLine($"{userInput}, have an amazing day!");
+                case "luke":
+                    Console.WriteLine("Howdy Luke, want to go fishing later.");
+                    break;
+                case "emily":
+                    Console.WriteLine("Hello, Emily!");
+                    break;
+                case "joe":
+                    Console.WriteLine("Hello, Joe!");
+                    break;
+                case "tim":
+                    Console.WriteLine("Master Tim, how was your neck workout?");
+                    break;
+                default:
+                    Console.WriteLine($"Hello {name}, talk about a legend! Make today great.");
+            break;
+            }
+               //default is for everyother name used 
 
-                if (userInput == "Luke" || userInput == "luke")
-                { }
-
-
-
-            } while (!isValid);
+              //puase before ending the program
+               Console.ReadLine();
         }
     }
 }
