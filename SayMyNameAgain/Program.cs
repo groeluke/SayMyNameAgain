@@ -1,4 +1,12 @@
-﻿namespace SayMyNameAgain
+﻿/*Luke Groesbeck
+Spring 2026
+RCET 2265
+Project SayMyNameAgain
+Computer Fundamentals and Introduction to Programming
+https://github.com/groeluke/SayMyNameAgain.git
+*/
+
+namespace SayMyNameAgain
 {
     internal class Program
     {
