@@ -34,7 +34,7 @@
             }
                //default is for everyother name used 
 
-              //puase before ending the program
+              //puase
                Console.ReadLine();
         }
     }
